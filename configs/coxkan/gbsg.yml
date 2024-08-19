@@ -1,0 +1,18 @@
+init_params:
+  base_fun: silu
+  grid: 3
+  k: 3
+  noise_scale: 0.09124870634310264
+  noise_scale_base: 0.17997663264175565
+  width:
+  - 7
+  - 2
+  - 1
+prune_threshold: 0.04512988597005627 # since early_stopping is true, we use validation set to prune instead of this threshold
+train_params:
+  early_stopping: true
+  lamb: 0.0007091236944039664
+  lamb_coef: 2
+  lamb_entropy: 3
+  lr: 0.007580113042388154
+  steps: 300

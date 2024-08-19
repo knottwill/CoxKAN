@@ -1,0 +1,30 @@
+num_hidden:
+  type: int
+  min: 1
+  max: 4
+hidden_dim:
+  type: int
+  min: 2
+  max: 20
+batch_norm:
+  type: categorical
+  values: [True, False]
+dropout:
+  type: loguniform
+  min: 0.1
+  max: 0.5
+lr:
+  type: loguniform
+  min: 0.001
+  max: 0.01
+weight_decay:
+  type: loguniform
+  min: 0.000000001
+  max: 0.001
+epochs:
+  type: int
+  min: 10
+  max: 150
+early_stopping:
+  type: fixed
+  value: false

@@ -1,0 +1,58 @@
+# Initialization hyperparameters
+num_hidden:
+  type: int
+  min: 0
+  max: 1
+hidden_dim:
+  type: int
+  min: 1
+  max: 5
+base_fun:
+  type: categorical
+  values: ["silu", "linear"]
+grid:
+  type: int
+  min: 3
+  max: 5
+k:
+  type: fixed
+  value: 3
+noise_scale:
+  type: float
+  min: 0
+  max: 0.2
+noise_scale_base:
+  type: float
+  min: 0
+  max: 0.2
+  
+# Training hyperparameters
+early_stopping: # (if early stopping, 'steps' is fixed to 300)
+  type: categorical
+  values: [true, false]
+lr:
+  type: loguniform
+  min: 0.0001
+  max: 0.1
+steps:
+  type: int
+  min: 50
+  max: 150
+lamb:
+  type: float
+  min: 0
+  max: 0.015
+lamb_entropy:
+  type: int
+  min: 0
+  max: 15
+lamb_coef:
+  type: int
+  min: 0
+  max: 5
+
+# Pruning threshold
+prune_threshold:
+  type: float
+  min: 0
+  max: 0.05

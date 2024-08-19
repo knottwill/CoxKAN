@@ -1,0 +1,12 @@
+early_stopping: true
+epochs: 300
+init_params:
+  batch_norm: true
+  dropout: 0.14569969056348822
+  num_nodes:
+  - 168
+  - 15
+  - 1
+optimizer_params:
+  lr: 0.0012597632822504863
+  weight_decay: 4.023977602844327e-07

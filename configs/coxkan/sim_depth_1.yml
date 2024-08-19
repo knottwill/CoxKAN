@@ -1,0 +1,17 @@
+init_params:
+  base_fun: silu
+  grid: 5
+  k: 3
+  noise_scale: 0.059979767538991154
+  noise_scale_base: 0.14212384488251717
+  width:
+  - 5
+  - 1
+prune_threshold: 0.03071055917060142
+train_params:
+  early_stopping: false
+  lamb: 0.00010159281058722897
+  lamb_coef: 0
+  lamb_entropy: 7
+  lr: 0.09977970015054377
+  steps: 107

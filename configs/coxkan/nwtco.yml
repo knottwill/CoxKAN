@@ -1,0 +1,18 @@
+init_params:
+  base_fun: linear
+  grid: 5
+  k: 3
+  noise_scale: 0.15233582410683386
+  noise_scale_base: 0.1626760232648737
+  width:
+  - 6
+  - 5
+  - 1
+prune_threshold: 0.02299885020284457
+train_params:
+  early_stopping: false
+  lamb: 0.002171973429385431
+  lamb_coef: 2
+  lamb_entropy: 2
+  lr: 0.0022840636718391176
+  steps: 147

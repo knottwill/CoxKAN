@@ -1,0 +1,6 @@
+baseline_hazard: 0.01
+log_partial_hazard: 'lambda x1, x2, x3, x4, noise1, noise2: 2*np.sqrt((x1-x2)**2 + (x3-x4)**2)'
+n_samples: 10000
+ranges:
+- -1
+- 1

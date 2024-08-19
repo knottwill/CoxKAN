@@ -1,0 +1,19 @@
+init_params:
+  base_fun: linear
+  grid: 4
+  k: 3
+  noise_scale: 0.003267841576682647
+  noise_scale_base: 0.15787875302736737
+  width:
+  - 6
+  - 5
+  - 5
+  - 1
+prune_threshold: 0.04535649680848182 # since early_stopping is true, we use validation set to prune instead of this threshold
+train_params:
+  early_stopping: true
+  lamb: 0.009372357586580716
+  lamb_coef: 2
+  lamb_entropy: 3
+  lr: 0.009755752157855669
+  steps: 300

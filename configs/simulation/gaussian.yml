@@ -1,0 +1,12 @@
+baseline_hazard: 0.01
+log_partial_hazard: 'lambda x1, x2, noise1, noise2: 5*np.exp(-2*(x1**2 + x2**2))'
+n_samples: 10000
+ranges:
+- -1
+- 1
+true_kan:
+- - x^2
+  - x^2
+  - '0'
+  - '0'
+- - exp
