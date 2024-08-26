@@ -47,6 +47,7 @@ old_envs/
 checkpoints/*_
 checkpoints/*/
 coxkan/_ckpt/*
-data/*
-!data/README.md
+data/TCGA/*
+data/name_recovery/
+!data/TCGA/README.md
 CoxKAN-supp
