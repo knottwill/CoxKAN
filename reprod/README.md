@@ -6,13 +6,13 @@ To re-produce all results quoted in the paper, follow the steps below:
 
 ### 1. Obtain data and checkpoints
 
-Please request the data, model checkpoints and results by sending me an email at knottenbeltwill@gmail.com (please specify if you would like just the pre-processed data or the original raw data + pre-processing codes).
-
-Next, set the environment variable `COXKAN_DATA_DIR` to the `data/` directory in the root of the project. Locate your shell configuration file (If you are using bash that will be `~/.bashrc` or `~/.bash_profile`), and add the absolute path to the data directory:
+Set the environment variable `COXKAN_DATA_DIR` to the `data/` directory in the root of the project. Locate your shell configuration file (If you are using bash that will be `~/.bashrc` or `~/.bash_profile`), and add the absolute path to the data directory:
 
 ```bash
 export COXKAN_DATA_DIR="path/to/data/"
 ```
+
+The TCGA genomics data was too large to include in the repo; please request it by emailing knottenbeltwill@gmail.com. I can also send you all my model checkpoints / results. 
 
 ### 2. Re-create environment
 

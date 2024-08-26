@@ -1,3 +1,3 @@
 Results / Model Checkpoints are saved in this directory.
 
-Available by request: knottenbeltwill@gmail.com
+Mine are all available by request: knottenbeltwill@gmail.com
