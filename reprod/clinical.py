@@ -1,6 +1,6 @@
 """
 Usage:
-python reproducibility/clinical.py --exp_name <exp_name> [--seed <seed>]
+python reprod/clinical.py --exp_name <exp_name> [--seed <seed>]
 
 where --exp_name can be: gbsg | metabric | flchain
 
