@@ -49,3 +49,4 @@ checkpoints/*/
 coxkan/_ckpt/*
 data/*
 !data/README.md
+CoxKAN-supp

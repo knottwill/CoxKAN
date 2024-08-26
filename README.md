@@ -8,7 +8,7 @@
     <a href="#installation">Installation</a> •
     <a href="#usage">Usage</a> •
     <a href="#datasets">Datasets</a> •
-    <a href="#datasets">Reproducibility</a> •
+    <a href="#reproducibility">Reproducibility</a> •
     <a href="#credits">Credits</a>
 </p>
 
@@ -44,7 +44,7 @@ CoxKAN can be installed via:
 pip install coxkan
 ```
 
-### Reproducibility
+### Git
 
 Alternatively, may desire the full codebase and environment that was used to produce all results in the associated paper:
 
