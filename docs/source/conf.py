@@ -8,6 +8,9 @@
 
 import os
 import sys
+print("Python version:", sys.version)
+print("Python path:", sys.path)
+print("Current working directory:", os.getcwd())
 
 sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('.'))
